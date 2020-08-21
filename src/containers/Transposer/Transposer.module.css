@@ -1,0 +1,7 @@
+.Transposer {
+    width: 100%;
+    margin: auto auto 30px;
+    overflow: scroll;
+    text-align: center;
+    display: block;
+}

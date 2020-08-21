@@ -1,0 +1,10 @@
+.NumberInput {
+    margin: 10px;
+    width: 3em;
+    text-align: center;
+    font-size: 1em;
+}
+
+.NumberInput::-webkit-inner-spin-button {
+    opacity: 1;
+}

@@ -1,0 +1,16 @@
+.CloseIcon {
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    top: 0;
+    right: 15px;
+    float: right;
+}
+
+.CloseIcon img {
+    position: relative;
+    top: -7px;
+    right: 12px;
+    float: right;
+    height: 75%;
+}

@@ -1,0 +1,7 @@
+.TextArea {
+    display: block;
+}
+
+.TextArea textarea {
+    font-family: inherit;
+}
