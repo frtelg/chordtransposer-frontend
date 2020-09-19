@@ -23,6 +23,7 @@ export default props => {
                     clickedHandler={props.copyButtonHandler}
                     copyText={props.copyText}
                     isCopied={props.copied}
+                    disabled={props.disableCopyButton}
         />
     </div>
 }

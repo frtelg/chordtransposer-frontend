@@ -51,7 +51,13 @@ class Transposer extends Component {
     }
 
     handleCopyButtonClick = () => {
-        this.setState({ copied: true })
+        this.setState({ copied: true }, () => {
+            setTimeout(() => {
+                if (this.state.copied) {
+                    this.setState({ copied: false })
+                }
+            }, 3000)
+        });
     }
 
     resetButtonHandler = () => {
@@ -74,6 +80,7 @@ class Transposer extends Component {
                              changeHandler={this.handleStepsChange} />
                 <TransposerButtons submitHandler={this.handleInputSubmit}
                                    disableTransposeButton={this.state.steps === 0}
+                                   disableCopyButton={this.state.outputText === ""}
                                    disableAllButtons={this.state.inputText === ""}
                                    stepAddedHandler={this.handleAddedStep}
                                    stepRemovedHandler={this.handleRemovedStep}
