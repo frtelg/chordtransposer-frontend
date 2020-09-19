@@ -65,7 +65,6 @@ class Transposer extends Component {
     render() {
         return (
             <div className={classes.Transposer}>
-                <h1>Chord transposer</h1>
                 <p>Paste in any text containing (guitar) chords and easily transpose chords by pressing some buttons :)</p>
                 <TextArea inputText={this.state.inputText}
                           changeHandler={this.handleInputChange}

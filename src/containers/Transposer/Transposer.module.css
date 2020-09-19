@@ -1,6 +1,7 @@
 .Transposer {
+    float: top;
     width: 100%;
-    margin: auto auto 30px;
+    margin-top: 10px;
     overflow: scroll;
     text-align: center;
     display: block;

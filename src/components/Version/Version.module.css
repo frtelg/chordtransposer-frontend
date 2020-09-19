@@ -1,0 +1,22 @@
+.Version {
+    box-sizing: border-box;
+    display: block;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+}
+
+@media (max-width: 500px) {
+    .Version {
+        font-size: 10pt;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width: 250px) {
+    .Version {
+        font-size: 8pt;
+        padding-right: 10px;
+    }
+}

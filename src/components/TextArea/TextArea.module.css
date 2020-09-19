@@ -4,4 +4,12 @@
 
 .TextArea textarea {
     font-family: inherit;
+    height: 350px;
+    width: 80%;
+}
+
+@media (max-height: 500px) {
+    .TextArea textarea {
+        height: 200px;
+    }
 }

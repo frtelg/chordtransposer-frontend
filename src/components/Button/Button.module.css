@@ -38,3 +38,27 @@
 .Button:not(:disabled) {
     animation: enable 0.3s linear;
 }
+
+@media (max-width: 750px) {
+    .Button {
+        margin: 9px;
+        font-size: 0.8em;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Button {
+        margin: 8px;
+        font-size: 0.7em;
+        padding: 7px 10px;
+    }
+}
+
+@media (max-width: 250px) {
+    .Button {
+        margin: 6px;
+        font-size: 0.5em;
+        padding: 5px 7px;
+    }
+}
